@@ -1,0 +1,59 @@
+*{padding: 0; margin: 0; }
+
+body{
+    background:radial-gradient( rgb(50, 0, 0),black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    flex-direction: column;
+    height: 120vh;
+}
+
+#carta{
+    margin-top: 10em;
+    height: 45em;
+    width: 17em;
+    border:grey 7px ridge;
+    border-radius: 5px;
+}
+
+#botao{
+    border: 5px ridge grey;
+    border-radius: 5px;
+    background: black;
+    color: grey;
+    height: 4.5em;
+    width: 12em;
+    font: 1.5em verdana;
+    cursor:pointer;
+    transition: all 0.7s;
+}
+
+#botao:hover{
+    border: 5px ridge darkgrey;
+    color: darkgrey;
+    box-shadow: 1px 1px 20px goldenrod;
+
+}
+
+#texto{
+    color: white;
+    text-align: center;
+    font: 1.5em verdana;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#final{
+    text-align: center;
+    font: 1.2em monospace;
+    margin-bottom: 3em;
+    color:white;
+    cursor:pointer;
+    transition: all 0.3s;
+}
+
+#final:hover{
+    color:darkgrey;
+}
